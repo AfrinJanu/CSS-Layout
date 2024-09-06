@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: #FFAFED;
+}
+html{
+	scroll-behavior: smooth;
+}
+.nav ul{
+	display: flex;
+	list-style: none;
+	height: 100px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 30px;
+	margin: 10px;
+	padding: 20px;
+	font-weight: bold;
+}
+.active, .nav ul li a:hover
+{
+	
+	background-color:#FFAFED  ;
+	font-size: 25px;
+	color: purple;
+}
+
+
+
+.header{
+	background: purple;
+	
+	width: 100%;
+}
+
+.nav{
+	display: grid;
+	grid-auto-columns: 6fr 6fr;
+	width: 100%;
+}
+
+.left{
+	grid-area: left;
+	height: 30px;
+	width: 100%;
+	background-color:;
+
+	
+}
+.left h1{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+	
+}
+
+.left p{
+	text-align: justify ;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.right{
+	grid-area: right;
+	height: 300px;
+	width: 100%;
+	
+}
+
+.right ul{
+	text-align-last:10px ;
+	font-size: 25px;
+	font-weight: bold;
+	list-style: none;
+
+
+
+}
+.right h1{
+	font-size: 30px;
+	text-decoration: underline;
+}
+.content{
+	display: grid;
+	grid-template-areas: 'left left left left right right right right';
+	background-color: ;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.site1{
+	grid-area: site1;
+	height: 400px;
+	width: 100%;
+}
+.site1 h1{
+	text-align: center;
+	text-decoration: underline;
+
+}
+.site1 p{
+	font-size: 20px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.site2{
+	grid-area: site2;
+	height: 400px;
+	width: 100%;
+}
+.site2 h1{
+	text-align: center;
+	text-decoration: underline;
+}
+.site2 img{
+	height: 200px;
+	width: 70%;
+	padding-left: 120px;
+	padding-top: 20px;
+}
+
+.site3{
+	grid-area: site3;
+	height: 400px;
+	width: 100%;
+}
+.site3 h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.site3 img{
+	height: 200px;
+	width: 70%;
+	left: 30px;
+	padding-left: 120px;
+	padding-top: 20px;
+}
+
+.content1{
+	display: grid;
+	grid-template-areas: 'site1 site1 site2 site2 site3 site3';
+}
+
+.img1{
+	grid-area: img1;
+	height: 200px;
+	width: 100%;
+}
+.img1 img{
+	height: 200px;
+	width: 100%;
+}
+.img2{
+	grid-area: img2;
+	height: 200px;
+	width: 100%;
+}
+.img2 img{
+	height: 200px;
+	width:100%;
+}
+.img3{
+	grid-area: img3;
+	height: 200px;
+	width: 100%;
+}
+.img3 img{
+	height: 200px;
+	width:100%
+}
+.img4{
+	grid-area: img4;
+	height: 200px;
+	width: 100%;
+}
+.img4 img{
+	height: 200px;
+	width:100%
+}
+
+.image{
+	display: grid;
+	grid-template-areas:' img1 img1 img2 img2 img3 img3 img4 img4';
+	gap: 10px;
+	padding: 10px;
+}
+
+.em{
+  	grid-area: em;
+	height: 150px;
+	width: 100%;
+}
+
+.em h1{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.em p{
+	font-size: 30px;
+	text-align: center;
+}
+.pho{
+	grid-area: pho;
+	height: 150px;
+	width: 100%;
+}
+.pho h1{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+.pho p{
+	font-size: 30px;
+	text-align: center;
+}
+
+.lin{
+	grid-area: lin;
+	height: 150px;
+	width: 100%;
+}
+.lin h1{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.lin p{
+	font-size: 30px;
+	text-align: center;
+}
+
+.lin ol{
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	padding-top: 5px;
+}
+.fotter{
+	display: grid;
+	grid-template-areas: 'em em pho pho lin lin';
+	background-color: #CC00DC;
+	gap: 10px;
+	padding: 10px;
+}
